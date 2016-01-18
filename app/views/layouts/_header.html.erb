@@ -1,0 +1,42 @@
+<header>
+<nav class="navbar navbar-fixed-top navbar-inverse " role="navigation">
+  <div class="container-fluid">
+    <%= link_to "BIKE LA", root_path, id: "logo" %>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <!-- Collect the nav links -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "about", about_path %></li>
+            <li><%= link_to "contact", contact_path %></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  classes <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><%= link_to "all classes", courses_path, class: "d-list" %></li>
+                <li><%= link_to "my classes", user_classes_path, class: "d-list" %></li>
+                <li class="divider"></li>
+                <li><%= link_to "create a class", addcourses_path, class: "d-list" %></li>
+              </ul>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                account <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><%= link_to "profile", root_path, class: "d-list" %></li>
+                <li><%= link_to "settings", edit_user_path(current_user), class: "d-list" %></li>
+                <li class="divider"></li>
+                <li><%= link_to "log out", logout_path, method: "delete", class: "d-list" %></li>
+              </ul>
+            </li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</header>
