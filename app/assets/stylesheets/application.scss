@@ -16,8 +16,8 @@ $green: #369E7D;
 
 /* universal */
 #bootstrap-overrides nav li img {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
 }
 
 body {
@@ -31,7 +31,7 @@ body {
 }
 
 #bootstrap-overrides .container-fluid {
-  margin: 40px 0px;
+  margin: 50px 0px;
   color: $green;
 }
 
@@ -44,8 +44,11 @@ body {
 
 #bootstrap-overrides .space-nav {
   padding-left: 80px;
-  padding-top: 16px;
+  padding-top: 24px;
   font-size: 24px;
+  a:hover {
+    color: $green;
+  }
 }
 
 /* home */
