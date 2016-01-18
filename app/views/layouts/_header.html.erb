@@ -12,7 +12,7 @@
     <!-- Collect the nav links -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav navbar-fixed-top">
-      <li><%= link_to '<i class="fa fa-home fa-3x"></i>'.html_safe, root_path, id: "logo" %></li>
+      <li id = "logo"><%= link_to image_tag("logo.png"), root_path%></li>
       <li class="space-nav"><%= link_to "INFORMATION", info_path %></li>
       <li class="space-nav"><%= link_to "GETTING AROUND", maps_path %></li>
       <li class="space-nav"><%= link_to "SAFETY", safety_path %></li>
