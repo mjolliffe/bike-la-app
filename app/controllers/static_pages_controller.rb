@@ -13,9 +13,6 @@ class StaticPagesController < ApplicationController
 
   end
 
-  def get_api
-  end
-
   def safety
   end
 
