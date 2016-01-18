@@ -10,9 +10,9 @@ Rails.application.routes.draw do
 
   root 'static_pages#home'
 
-  get '/info' => 'static_pages#info'
-  get '/safety' => 'static_pages#show_safety'
-  get '/maps' => 'static_pages#show_maps'
-  get '/action' => 'static_pages#show_action'
+  get '/info' => 'static_pages#info', as: :info
+  get '/safety' => 'static_pages#safety', as: :safety
+  get '/maps' => 'static_pages#maps', as: :maps
+  get '/action' => 'static_pages#action', as: :action
 
 end
