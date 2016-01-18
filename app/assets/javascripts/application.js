@@ -15,13 +15,14 @@
 //= require turbolinks
 //= require_tree .
 
-// var scroll_pos = 0;
-// $(document).scroll(function() {  // header change color upon scroll down
-//     scroll_pos = $(this).scrollTop();
-//     if(scroll_pos < 600) {
-//         $("header").css('background-color', 'transparent');
-//     } else {
-//         $("header").css('background-color', '#907F75');
-//         $("header").css('opacity', '0.95');
-//     }
-// });
+var scroll_pos = 0;
+$(document).scroll(function() {  // header change color upon scroll down
+    scroll_pos = $(this).scrollTop();
+    if(scroll_pos < 540) {
+        $("header").css('background-color', 'transparent');
+    } else {
+        $("header").css('background-color', '#fff');
+        $("header").css('padding', '20px');
+        $("header").css('opacity', '0.95');
+    }
+});

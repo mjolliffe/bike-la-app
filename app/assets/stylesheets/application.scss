@@ -18,6 +18,7 @@ $green: #369E7D;
 #bootstrap-overrides nav li img {
   width: 70px;
   height: 70px;
+  margin-left: 10px;
 }
 
 body {
@@ -33,6 +34,7 @@ body {
 #bootstrap-overrides .container-fluid {
   margin: 50px 0px;
   color: $green;
+  padding-left: 10px;
 }
 
 /* header/navbar */
@@ -46,7 +48,7 @@ body {
   padding-left: 80px;
   padding-top: 24px;
   font-size: 24px;
-  a:hover {
+  a:hover{
     color: $green;
   }
 }
