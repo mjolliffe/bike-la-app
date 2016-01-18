@@ -4,9 +4,8 @@
 }
 
 #search-container {
-  margin-top: 100px;
-  min-height: 50px;
-  border: 1px solid black;
+  margin-top: 150px;
+  min-height: 60px;
 }
 
 #search {
@@ -18,7 +17,9 @@
   float: left;
   width: 10px;
   height: 45px;
-  border: 1px solid black;
+  margin: 5px auto;
+  background-color: black;
+  border-radius: 3px;
 }
 
 #search > input {
@@ -32,4 +33,30 @@
 #googleMap {
   width: 100%;
   height: 570px;
+}
+
+#content {
+  margin-top: 150px;
+}
+
+#content > div {
+  float: left;
+}
+
+#filters, #route-info{
+  // width: 50%;
+  height: 300px;
+}
+
+#filters {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#filters > div {
+  margin-bottom: 10px;
+}
+
+.map-header {
+  font-size: 25px;
 }

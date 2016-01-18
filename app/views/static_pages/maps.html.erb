@@ -2,15 +2,82 @@
   <div id="search-container">
     <div id="search">
       <div id="search-btn"></div>
-      <input placeholder="Search Neighborhood"></input>
+      <input placeholder="Search Area"></input>
     </div>
   </div>
   <div id="googleMap">
   </div>
   <div id="content">
-    <div>
+
+    <div id="filters" class="col-lg-6">
+      <div class="row">
+        <div class="col-md-1">
+          <span class="map-header">FILTERS: </span>
+        </div>
+        <div class="col-lg-3">
+          <div class="input-group">
+            <input type="text" class="form-control" aria-label="Text input with dropdown button">
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-angle-down"></i>
+              </button>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="#">Echo Park</a>
+                <a class="dropdown-item" href="#">Silver Lake</a>
+                <a class="dropdown-item" href="#">Financial District</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <div class="input-group">
+            <span class="input-group-addon">
+              <input type="checkbox" aria-label="Checkbox for following text input">
+            </span>
+            <input placeholder="Existing Bikeways" type="text" class="form-control" aria-label="Text input with checkbox">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <div class="input-group">
+            <span class="input-group-addon">
+              <input type="checkbox" aria-label="Checkbox for following text input">
+            </span>
+            <input placeholder="In Development" type="text" class="form-control" aria-label="Text input with checkbox">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <div class="input-group">
+            <span class="input-group-addon">
+              <input type="checkbox" aria-label="Checkbox for following text input">
+            </span>
+            <input placeholder="Bike Parking" type="text" class="form-control" aria-label="Text input with checkbox">
+          </div>
+        </div>
+      </div>
     </div>
-    <div>
-    </div>
+
+  <div id="route-info" class="col-lg-6">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <div class="input-group">
+            <span class="input-group-addon">
+              <input type="checkbox" aria-label="Checkbox for following text input">
+            </span>
+            <input placeholder="Bike Parking" type="text" class="form-control" aria-label="Text input with checkbox">
+          </div>
+        </div>
+      </div>
   </div>
 </div>
