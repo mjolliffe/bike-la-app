@@ -10,6 +10,10 @@ class StaticPagesController < ApplicationController
   end
 
   def maps
+
+  end
+
+  def get_api
   end
 
   def safety
