@@ -1,7 +1,6 @@
 <header>
 <nav class="navbar navbar-fixed-top navbar-inverse " role="navigation">
   <div class="container-fluid">
-    <%= link_to "BIKE LA", root_path, id: "logo" %>
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
@@ -12,11 +11,12 @@
     </div>
     <!-- Collect the nav links -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <ul class="nav navbar-nav">
-            <li><%= link_to "info", info_path %></li>
-            <li><%= link_to "maps", maps_path %></li>
-            <li><%= link_to "safety", safety_path %></li>
-            <li><%= link_to "action", action_path %></li>
+    <ul class="nav navbar-nav navbar-fixed-top">
+      <li><%= link_to '<i class="fa fa-home fa-3x"></i>'.html_safe, root_path, id: "logo" %></li>
+      <li class="space-nav"><%= link_to "INFORMATION", info_path %></li>
+      <li class="space-nav"><%= link_to "GETTING AROUND", maps_path %></li>
+      <li class="space-nav"><%= link_to "SAFETY", safety_path %></li>
+      <li class="space-nav"><%= link_to "GETTING INVOLVED", action_path %></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

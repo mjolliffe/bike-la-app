@@ -2,17 +2,16 @@
 *= require_self
 *= require_tree .
 */
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
 /* typography */
 $primary-font: 'Montserrat', sans-serif;
-$secondary-font: 'Cardo', serif;
+$secondary-font: 'Domine', serif;
 
 /* colors */
-$blue: #092E4D;
-$pink: #FC8683;
+$white: #fff;
+$gray: #222;
 
 /* universal */
 body {
@@ -24,3 +23,39 @@ body {
 #bootstrap-overrides .container {
   margin: 0 auto;
 }
+
+#bootstrap-overrides .container-fluid {
+  margin: 40px 0px;
+  color: $white;
+}
+
+/* header/navbar */
+#bootstrap-overrides .space-nav {
+  padding-left: 80px;
+  padding-top: 12px;
+  font-size: 24px;
+}
+
+/* home */
+
+#bootstrap-overrides .image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+#bootstrap-overrides h2 {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+   color: $white;
+   text-align: center;
+   line-height: 2em;
+}
+
+/* footer */
+.footer-icons {
+  text-decoration: none;
+  display: inline-block;
+}
+
