@@ -44,7 +44,7 @@ body {
 
 #bootstrap-overrides .space-nav {
   padding-left: 80px;
-  padding-top: 12px;
+  padding-top: 16px;
   font-size: 24px;
 }
 
@@ -66,7 +66,7 @@ body {
    font-size: 36px;
 }
 
-#bootstrap-overrides h2 {
+#bootstrap-overrides h2 a {
    position: absolute;
    top: 140px;
    left: 0;
@@ -74,16 +74,45 @@ body {
    color: $white;
    text-align: center;
    font-size: 48px;
-}
-
-/* footer */
-.footer-icons {
-  text-decoration: none;
-  display: inline-block;
+   color: $white;
+   text-decoration: none;
 }
 
 #bootstrap-overrides h3 {
-  font-family:$primary-font ;
+   color: $green;
+   text-align: center;
+   line-height: 2em;
+   font-size: 36px;
+   padding-top: 100px;
+}
+
+p {
+  font-family: $secondary-font;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* footer */
+.footer {
+  text-decoration: none;
+  display: inline-block;
+  padding-right: 28px;
+  padding-left: 28px;
+}
+
+.footer-icons {
+  text-decoration: none;
+  display: inline-block;
+  color: $green;
+  a{
+  color: $green;
+  padding-left: 4px;
+  padding-right: 4px;
+  }
+}
+
+#bootstrap-overrides #footer {
+  font-family:$primary-font;
   font-size: 14px;
 }
 
