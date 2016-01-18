@@ -2,7 +2,6 @@
 *= require_self
 *= require_tree .
 */
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -24,3 +23,21 @@ body {
 #bootstrap-overrides .container {
   margin: 0 auto;
 }
+
+#bootstrap-overrides .container-fluid {
+  margin: 40px 0px;
+}
+
+/* header/navbar */
+#bootstrap-overrides .space-nav {
+  padding-left: 80px;
+  padding-top: 12px;
+  font-size: 24px;
+}
+
+/* footer */
+.footer-icons {
+  text-decoration: none;
+  display: inline-block;
+}
+
