@@ -5,3 +5,22 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+/* typography */
+$primary-font: 'Montserrat', sans-serif;
+$secondary-font: 'Cardo', serif;
+
+/* colors */
+$blue: #092E4D;
+$pink: #FC8683;
+
+/* universal */
+body {
+  padding-top: 60px;
+  font-family: $primary-font;
+  overflow: scroll !important;
+}
+
+#bootstrap-overrides .container {
+  margin: 0 auto;
+}
