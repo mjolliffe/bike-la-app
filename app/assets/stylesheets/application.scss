@@ -12,8 +12,14 @@ $secondary-font: 'Domine', serif;
 /* colors */
 $white: #fff;
 $gray: #222;
+$green: #369E7D;
 
 /* universal */
+#bootstrap-overrides nav li img {
+  width: 50px;
+  height: 50px;
+}
+
 body {
   padding-top: 60px;
   font-family: $primary-font;
@@ -26,10 +32,16 @@ body {
 
 #bootstrap-overrides .container-fluid {
   margin: 40px 0px;
-  color: $white;
+  color: $green;
 }
 
 /* header/navbar */
+
+#bootstrap-overrides .navbar-inverse {
+  background-color: $white;
+  border-color: $white;
+}
+
 #bootstrap-overrides .space-nav {
   padding-left: 80px;
   padding-top: 12px;
@@ -39,23 +51,39 @@ body {
 /* home */
 
 #bootstrap-overrides .image {
-   position: relative;
-   width: 100%; /* for IE 6 */
+  position: relative;
+  width: 100%; /* for IE 6 */
 }
 
-#bootstrap-overrides h2 {
+#bootstrap-overrides h1 {
    position: absolute;
-   top: 200px;
+   top: 140px;
    left: 0;
    width: 100%;
    color: $white;
    text-align: center;
    line-height: 2em;
+   font-size: 36px;
+}
+
+#bootstrap-overrides h2 {
+   position: absolute;
+   top: 140px;
+   left: 0;
+   width: 100%;
+   color: $white;
+   text-align: center;
+   font-size: 48px;
 }
 
 /* footer */
 .footer-icons {
   text-decoration: none;
   display: inline-block;
+}
+
+#bootstrap-overrides h3 {
+  font-family:$primary-font ;
+  font-size: 14px;
 }
 
